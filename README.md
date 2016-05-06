@@ -1,6 +1,9 @@
-Time Slot Tracker App
+#Time Slot Tracker App
+
 Web application for time slot tracking
-Running the app
+
+#Running the app
+
 First, make sure to have installed following:
 1.	Node Version ()
 2.	MongoDB Version (3.2)
