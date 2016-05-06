@@ -1,0 +1,19 @@
+<!--
+    view: Home
+	author: Poonam Gokani
+	description: To render time slot list
+-->
+<div ng-controller="timeslot-list">
+	<h4>List of Time Slot</h4>
+	<hr>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="list-group col-md-12" ng-repeat="timeslotdetail in timeslotlist">
+			  <a ui-sref="utilizeTimeSlot" ng-click="editTimeSlot($index)" class="list-group-item" ng-class="{utilizeColor: timeslotdetail.isUtilize}">{{timeslotdetail.timeSlot}}</a>				  
+			</div>
+			<div class="col-md-12" ng-show="timeslotlist.length==0">
+				No Time Slot Detail Found
+			</div>				
+		</div>
+	</div>
+</div>

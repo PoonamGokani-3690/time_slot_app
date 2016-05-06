@@ -1,0 +1,32 @@
+<!--
+    view: utilizetimeslot
+	author: Poonam Gokani
+	description: To add/edit timeslot details
+-->
+<h4>Utilize Time Slot</h4><hr>
+<div class="row" ng-controller="utilize-timeslot">
+	<div class="col-md-6">
+		<div class="well well-sm">
+			<form name="timeslotform" ng-submit="timeslotform.$valid && utilizeTimeSlot()">
+				<div class="form-group">
+					<label>Time Slot</label>
+					<label><b>{{timeslotdata.timeSlot}}</b></label>					
+				</div>
+				<div class="form-group">
+					<label for="firstName">First Name</label>
+					<input type="text" class="form-control" ng-model="timeslotdata.firstName" placeholder="Enter First Name" name="firstName" ng-pattern="/^[a-zA-Z]*$/" ng-minlength="1" cust-maxlength="30" required>
+				</div>
+				<div class="form-group">
+					<label for="lastName">Last Name</label>
+					<input type="text" class="form-control" ng-model="timeslotdata.lastName" placeholder="Enter Last Name" name="lastName" required ng-pattern="/^[a-zA-Z]*$/" ng-minlength="1" cust-maxlength="30">
+				</div>
+				<div class="form-group">
+					<label for="phoneNumber">Phone Number</label>
+					<input type="text" class="form-control" ng-model="timeslotdata.phoneNumber" placeholder="Enter phoneNumber" name="phoneNumber" required number-only cust-maxlength="10" ng-minlength="10">
+				</div>			
+				<button type="reset" class="btn btn-default" ng-click="cancel()">Cancel</button>
+				<button type="submit" class="btn btn-success">Save</button>			
+			</form>
+		</div>
+	</div>
+</div>
