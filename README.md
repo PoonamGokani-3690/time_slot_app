@@ -12,7 +12,7 @@ First, make sure to have installed following:
 
 	1.	Node Version (v4.4.4 Link: https://nodejs.org/en/download/)
 	
-	2.	MongoDB (v3.2 Link: https://www.mongodb.com/)
+	2.	MongoDB (v3.2 Link: https://www.mongodb.com/) and add it to your path of environment variables. (For Ex: C:\Program Files\MongoDB\Server\3.0\bin)
 
 Clone this repo to a local directory and run npm install to install dependencies:
 
