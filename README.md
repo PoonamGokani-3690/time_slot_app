@@ -41,7 +41,7 @@ Execute following commands on your command prompt or you can create batch files 
 
 4. Execute index.html file and enjoy Time Slot Tracker Application.
 
-#Validation
+#Validation (Invalid Field highlight with red text color)
 FirstName : Required Field (only Enter Alphabet, maximum length:30 Digit)
 
 LastName : Required Field (only Enter Alphabet, , maximum length:30 Digit)
