@@ -8,6 +8,8 @@
 #Running the app
 
 First, make sure to have installed following:
+
+
 	1.	Node Version (v4.4.4 Link: https://nodejs.org/en/download/)
 	
 	2.	MongoDB (v3.2 Link: https://www.mongodb.com/)
