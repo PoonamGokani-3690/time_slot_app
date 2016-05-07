@@ -1,14 +1,15 @@
 #Time Slot Tracker App
 
 	- Web application for time slot tracking
-	- Make the app responsive using Twitter Bootstrap.
-	- Showcase the use of Angular Directive by implementing validation
-        - Implement actual REST endpoints using NodeJS Express Framework that stores the information in MongoDB. 
+	- Application is responsive using Twitter Bootstrap for that.
+	- Using Angular Directive for implementing validation
+	- Implement actual REST endpoints using NodeJS Express Framework that stores the information in MongoDB. 
 
 #Running the app
 
 First, make sure to have installed following:
 	1.	Node Version (v4.4.4 Link: https://nodejs.org/en/download/)
+	
 	2.	MongoDB (v3.2 Link: https://www.mongodb.com/)
 
 Clone this repo to a local directory and run npm install to install dependencies:
