@@ -1,3 +1,6 @@
 .utilizeColor{
 	background-color:#ff4c4c;
 }
+.form-control.ng-invalid-pattern{
+   color:red;
+}
