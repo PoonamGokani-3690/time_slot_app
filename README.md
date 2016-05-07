@@ -48,4 +48,17 @@ LastName : Required Field (only Enter Alphabet, , maximum length:30 Digit)
 
 Phone Number: Required Field (Only Allow to Enter Digit, minimum and maximum length : 10 Digit as per Indian mobile number)
 
+Right now, application in localhost so should follow some additional steps to resolve CORS error:
+
+	npm install http-server -g
+	http-server time_slot_app
+	
+	Starting up http-server, serving time_slot_app
+	Available on:
+  	http://192.168.0.18:8080
+  	http://127.0.0.1:8080
+  	
+
+In server.js file change res.header('Access-Control-Allow-Origin', 'http://192.168.0.18:8080/'); to allow CORS request on localhost
+
 
