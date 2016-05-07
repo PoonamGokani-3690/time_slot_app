@@ -4,3 +4,6 @@
 .form-control.ng-invalid-pattern{
    color:red;
 }
+.form-control.ng-invalid-minlength{
+  color:red;
+}
