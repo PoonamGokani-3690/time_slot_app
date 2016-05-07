@@ -8,12 +8,12 @@
 #Running the app
 
 First, make sure to have installed following:
-	1.	Node Version ()
-	2.	MongoDB Version (3.2)
+	1.	Node Version (v4.4.4 Link: https://nodejs.org/en/download/)
+	2.	MongoDB (v3.2 Link: https://www.mongodb.com/)
 
 Clone this repo to a local directory and run npm install to install dependencies:
 
-	 git clone git@github.com:sport195/s195-mobile.git
+	 git clone https://github.com/PoonamGokani-3690/time_slot_app.git
 	 cd time_slot_app/nodeApi
 	 npm install
 
@@ -33,12 +33,16 @@ Execute following commands on your command prompt or you can create batch files 
 	node server.js
 
 	You will receive following output once server starts:
+	
 	Connected & Listen to port 8080
 
 4. Execute index.html file and enjoy Time Slot Tracker Application.
 
 #Validation
 FirstName : Required Field (only Enter Alphabet, maximum length:30 Digit)
+
 LastName : Required Field (only Enter Alphabet, , maximum length:30 Digit)
+
 Phone Number: Required Field (Only Allow to Enter Digit, minimum and maximum length : 10 Digit as per Indian mobile number)
+
 
